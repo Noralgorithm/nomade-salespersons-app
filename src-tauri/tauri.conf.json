@@ -12,6 +12,11 @@
   "tauri": {
     "allowlist": {
       "all": false,
+      "http": {
+        "all": true,
+        "request": true,
+        "scope": ["https://nomade.4.us-1.fl0.io/*"]
+      },
       "shell": {
         "all": false,
         "open": true

@@ -19,4 +19,5 @@ export default defineConfig(async () => ({
       ignored: ["**/src-tauri/**"],
     },
   },
+  envPrefix: "VITE_",
 }));
