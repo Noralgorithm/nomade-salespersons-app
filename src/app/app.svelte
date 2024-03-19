@@ -15,7 +15,12 @@
   };
 </script>
 
-<html lang="es" data-theme="emerald">
+<svelte:head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</svelte:head>
+
+<html lang="es" data-theme="emerald" class="w-screen m-0 p-0">
   <Layout>
     <Router {routes} />
   </Layout>

@@ -1,4 +1,5 @@
 import { fetch } from "@tauri-apps/api/http";
+
 import type { Customer } from "../../../shared/types/customer";
 import { BACKEND_BASE_URL } from "../../../shared/environment-variables";
 import type { BackendResponse } from "../../../shared/types/dto/backend-response";
