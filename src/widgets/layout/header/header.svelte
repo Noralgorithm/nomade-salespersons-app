@@ -9,7 +9,10 @@
   <h2 class="flex-grow-1">NOMADE | Bienvenido al panel de ventas</h2>
 
   <button
-    on:click={() => logout(() => navigateTo("/login"))}
+    on:click={() => {
+      logout();
+      navigateTo("/login");
+    }}
     class="btn btn-outline absolute right-4 top-2 btn-error"
     >Cerrar sesión</button
   >

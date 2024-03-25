@@ -6,12 +6,14 @@
   import { CustomerPage } from "../pages/customer";
   import { CustomerCreationPage } from "../pages/customer-creation";
   import { ServicesRegistrationPage } from "../pages/services-registration";
+  import { PayOrderPage } from "../pages/pay-order";
 
   const routes = {
     "/login": LoginPage,
     "/customer": CustomerPage,
     "/customer-creation": CustomerCreationPage,
     "/services-registration": ServicesRegistrationPage,
+    "/pay-order": PayOrderPage,
   };
 </script>
 
