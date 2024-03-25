@@ -6,3 +6,9 @@ export interface Payment {
   appliedCommissionPercentage: number;
   paymentMethodId: string;
 }
+
+export interface CreatePaymentDto {
+  paymentTimestamp: string;
+  netAmountPaid: number;
+  paymentMethodId: string;
+}

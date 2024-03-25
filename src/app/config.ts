@@ -1,1 +1,1 @@
-export const INITIAL_ROUTE = "/pay-order";
+export const INITIAL_ROUTE = "/login";
